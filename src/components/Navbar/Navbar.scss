@@ -1,0 +1,29 @@
+$primary-color: #3498db;
+
+.navbar {
+    background-color: $primary-color;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; // This will push the logo to the left and the links to the right
+    align-items: center; // Vertically center the items
+  
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+
+    li {
+      margin-right: 1.5rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

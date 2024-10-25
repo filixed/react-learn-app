@@ -1,0 +1,30 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .navbarWrapper {
+    background-color: #1e1e2f;
+  }
+
+.layoutBody  {
+    display: flex;
+    flex: 1;
+  }
+
+  .leftPanel {
+    background-color: #2c2c3e;
+    width: 250px;
+    padding: 1rem;
+    border-right: 2px solid #444; // Add the border here to make it visible
+    height: 100%;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #2c2c3e;
+    color: white;
+    overflow-y: auto;
+  }
